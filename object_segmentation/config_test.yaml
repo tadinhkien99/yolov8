@@ -1,0 +1,14 @@
+project: Traineye
+model: C:\work\Traineye\DOCK\YoluV8 trainand inference\best.pt  # path to model file, i.e. yolov8n.pt, yolov8n.yaml
+#source: C:/traffic/yolov5-master/Traffic_Fix_clean_datasetv7/dataset/images/test  # source directory for images or videos
+source: C:\work\Traineye\BY\BYN # source directory for images or videos
+device: 0  # cuda device, i.e. 0 or 0,1,2,3 or cpu
+conf: 0.3 # object confidence threshold for detection
+iou: 0.5 # intersection over union (IoU) threshold for NMS
+imgsz: 736  # image size
+save: True  # save images and videos
+save_txt: True  # save results to *.txt
+show: False  # display results
+show_labels: True  # display labels
+show_conf: True  # display object confidence
+show_boxes: True  # display bounding boxes

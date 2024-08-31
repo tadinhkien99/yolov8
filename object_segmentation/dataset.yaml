@@ -1,0 +1,6 @@
+path: E:\\kuro\\test\\onviz\\yolov8_series\\object_segmentation\\data
+train: train/images
+val: valid/images
+test: valid/images
+
+names: [ 'railedge', 'strain', 'strainbottum', 'wheel edge1', 'wheel-edge2' ]
