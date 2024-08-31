@@ -1,0 +1,4 @@
+object_segmentation/data
+object_detection/data
+object_segmentation/*.pt
+object_detection/*.pt
