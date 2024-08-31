@@ -1,4 +1,4 @@
-path: E:\\kuro\\test\\onviz\\yolov8_series\\object_segmentation\\data
+path: E:\\kuro\\test\\onviz\\yolov8-series\\object_segmentation\\data
 train: train/images
 val: valid/images
 test: valid/images

@@ -25,6 +25,25 @@ if __name__ == "__main__":
     plots = config['plots']
     resume = config['resume']
 
+    augmentation = config['augmentation']
+    hsv_h = augmentation['hsv_h']
+    hsv_s = augmentation['hsv_s']
+    hsv_v = augmentation['hsv_v']
+    degrees = augmentation['degrees']
+    translate = augmentation['translate']
+    scale = augmentation['scale']
+    shear = augmentation['shear']
+    perspective = augmentation['perspective']
+    flipud = augmentation['flipud']
+    fliplr = augmentation['fliplr']
+    mosaic = augmentation['mosaic']
+    mixup = augmentation['mixup']
+    copy_paste = augmentation['copy_paste']
+    erasing = augmentation['erasing']
+    crop_fraction = augmentation['crop_fraction']
+
     model = YOLO(pretrained_model)
     results = model.train(data=data, epochs=epochs, imgsz=imgsz, batch=batch, workers=workers, device=device,
-                          project=project_name, val=val, plots=plots, resume=resume)
+                          project=project_name, val=val, plots=plots, resume=resume, hsv_h=hsv_h, hsv_s=hsv_s, hsv_v=hsv_v, degrees=degrees, translate=translate,
+                          scale=scale, shear=shear, perspective=perspective, flipud=flipud, fliplr=fliplr, mosaic=mosaic, mixup=mixup, copy_paste=copy_paste,
+                          erasing=erasing, crop_fraction=crop_fraction)
