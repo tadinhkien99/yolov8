@@ -1,0 +1,5 @@
+train: C:/traffic/yolov5-master/Traffic_Fix_clean_datasetv7/dataset/images/train  # train images
+val: C:/traffic/yolov5-master/Traffic_Fix_clean_datasetv7/dataset/images/valid # val images
+#test:  C:/traffic/yolov5-master/Traffic_Fix_clean_datasetv7/dataset/images/test # test images
+
+names: [ 'bicycle', 'bus', 'car', 'motorcycle', 'person', 'truck' ]

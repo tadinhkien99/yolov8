@@ -1,0 +1,14 @@
+project: vehicle_train  # project name
+#model: yolov8n  # run name
+model: C:/traffic/yolov5-master/Traffic_Fix_clean_datasetv7/vehicle_train/train4/weights/last.pt  # path to model file, i.e. yolov8n.pt, yolov8n.yaml
+data: C:/traffic/yolov5-master/Traffic_Fix_clean_datasetv7/dataset.yaml  # path to dataset file, i.e. dataset.yaml
+device: 0  # cuda device, i.e. 0 or 0,1,2,3 or cpu
+epochs: 80  # number of epochs
+batch: 80  # batch size
+imgsz: 640  # image size
+workers: 1  # number of workers threads for data loading
+val: True  # run validation during training
+plots: True  # save plots and images during train/val
+
+resume: False  # resume training from checkpoint
+
