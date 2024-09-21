@@ -1,4 +1,6 @@
 object_segmentation/data
 object_detection/data
 object_segmentation/*.pt
+object_segmentation/*.txt
 object_detection/*.pt
+object_detection/*.txt
